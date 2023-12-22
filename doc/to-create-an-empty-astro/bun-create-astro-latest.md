@@ -1,7 +1,5 @@
 # bun create astro@latest
 
-
-
 ```
 👉npx bun create astro@latest -- --template minimal
 ```
@@ -11,6 +9,8 @@ or
 ```
 👉npx bun create astro@latest
 ```
+
+:tada: More option or templates can see in the Bun official docs -> [here](https://bun.sh/docs/cli/bun-create)
 
 ```
 Script started on Fri Dec 22 11:45:18 2023
