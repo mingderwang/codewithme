@@ -1,6 +1,25 @@
-# Learning by Examples
+# Create an Empty Astro
 
-:tada:Create an empty astro project
+:tada: The code structure will be like this bellow;
+
+```
+.
+├── README.md
+├── astro.config.mjs
+├── bun.lockb
+├── package.json
+├── public
+│   └── favicon.svg
+├── src
+│   ├── env.d.ts
+│   └── pages
+│       └── index.astro
+└── tsconfig.json
+
+4 directories, 8 files
+```
+
+🚀 Type scripts as bellow:
 
 ```
 Script started on Fri Dec 22 09:43:24 2023
