@@ -1,25 +1,22 @@
-# Create an Empty Astro
+---
+description: 5 mins hands on
+---
 
-:tada: The code structure will be like this bellow;
+# To Create an Empty Astro
+
+:tada: To use bun to create a new astro project
 
 ```
-.
-├── README.md
-├── astro.config.mjs
-├── bun.lockb
-├── package.json
-├── public
-│   └── favicon.svg
-├── src
-│   ├── env.d.ts
-│   └── pages
-│       └── index.astro
-└── tsconfig.json
-
-4 directories, 8 files
+bun create astro@latest
 ```
 
-🚀 Type scripts as bellow:
+or to create a minimal code base with the following command
+
+```
+npx bun create astro@latest -- --template minimal
+```
+
+🚀 Terminal session sctrips as bellow:
 
 ```
 Script started on Fri Dec 22 09:43:24 2023
@@ -81,8 +78,8 @@ The following filters did not match any test files:
 note: Tests need ".test", "_test_", ".spec" or "_spec_" in the filename (ex: "MyApp.test.ts")
 
 Learn more about the test runner: https://bun.sh/docs/cli/test
-👉bun dev
-$ astro dev
+👉bun dev --open
+$ astro dev --open
 
  astro  v4.0.7 ready in 344 ms
 
@@ -91,8 +88,8 @@ $ astro dev
 
 09:46:20 watching for file changes...
 ^C
-👉bun start --open
-$ astro dev --open
+👉bun start
+$ astro dev
 
  astro  v4.0.7 ready in 303 ms
 
@@ -107,3 +104,5 @@ $ astro dev --open
 
 Script done on Fri Dec 22 09:46:49 2023
 ```
+
+surf your first page on http://localhost:4321/
